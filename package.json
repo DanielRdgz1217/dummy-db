@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "createdb": "npx sequelize-cli db:create --env create"
   },
   "keywords": [],
   "author": "",
@@ -13,6 +13,7 @@
     "dotenv": "^16.4.5",
     "mariadb": "^3.3.0",
     "name-generate": "^0.0.1",
-    "sequelize": "^6.37.3"
+    "sequelize": "^6.37.3",
+    "sequelize-cli": "^6.6.2"
   }
 }
